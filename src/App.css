@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+.container-sidebar{
+    width: 300px !important;
+    position: relative;
+    top: 0;
+    height: 100%;
+    bottom: 0;    
+}
+
+.cerrar-sesion-option{
+    position: absolute;
+    bottom: 0;    
+    left: 0;
+    width: 94.5%;
+}
+
+.container-photo img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.active-option{
+    border: 1px solid rgb(33, 37, 41);    
+}
+
+.container-filter{
+    background-color: rgb(255, 255, 255);
+}
+
+.container-main{
+    height: 95vh;
+
+}
+
+.option{
+    box-sizing: border-box;
+}
+
+.option:hover{
+    border: .2px solid rgb(196, 197, 197);    
+}
+.anexo{
+    border-radius: 5px;
+    max-width: 200px;
+    height: 150px;
+}
+
+.anexo:hover{
+    background-color: aliceblue;
+}
+
+.anexo-active{
+    background-color: rgb(212, 227, 240);
+}
+.anexo img{
+    border-radius: 5px;
+    max-width: 60px;
+    height: 65px;
+}
+
+.anexo span{
+    font-size: 12px;
+}
+
+
+.container-postulations{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    gap: 20px;
+}
+
+.postulacion-card:hover{
+    cursor: pointer;
+    background-color: rgb(192, 201, 196);
+}
+ 
+
+ 
