@@ -4,10 +4,7 @@ import {
   Typography,
   Card,
   CardContent,
-  Grid,
-  IconButton,
-  useTheme,
-  useMediaQuery,
+  Grid  
 } from '@mui/material';
 
 export function PostulacionComponent({

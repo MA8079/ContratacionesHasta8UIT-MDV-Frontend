@@ -3,7 +3,7 @@ import { AnexoType } from "../types/AnexoType";
 import docxIcon from "./../assets/extensions/docx.webp";
 import pdfIcon from "./../assets/extensions/pdf.jpeg";
 import { useLocation } from "react-router";
-import { KeyboardReturnOutlined, CheckCircle } from "@mui/icons-material";
+//import { KeyboardReturnOutlined, CheckCircle } from "@mui/icons-material";
 import { ArrowBack as ArrowBackIcon, CheckCircle as CheckCircleIcon } from '@mui/icons-material';
 import { MyContext } from "../context/Context";
 import {
@@ -18,13 +18,11 @@ import {
   Button,
   Grid,
   Paper,
-  IconButton,
   Card,
   CardContent,
   useMediaQuery,
   ThemeProvider,
   createTheme,
-  CardMedia,
 } from '@mui/material';
 
 function CotizacionView() {
@@ -68,8 +66,8 @@ function CotizacionView() {
       },
     },
   });
-
-  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
+  
+  //const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
 
   return (
     <ThemeProvider theme={theme}>
